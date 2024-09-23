@@ -41,9 +41,9 @@
             "@php vendor/bin/testbench serve --ansi"
         ],
         "check": [
+            "@rector",
             "@php vendor/bin/pint",
             "@php vendor/bin/phpstan analyse",
-            "@rector",
             "@test"
         ],
         "rector": [
