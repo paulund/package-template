@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class PackageNameServiceProvider extends ServiceProvider
 {
+    #[\Override]
     public function register() {}
 
     public function boot()
