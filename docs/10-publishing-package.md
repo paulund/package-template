@@ -8,3 +8,7 @@ repository.
 
 You will link it with your code repository and then you can install it in any Laravel application using
 the `composer require` command.
+
+# Market Your Package
+
+- https://madewithlaravel.com/ - Can submit your package here to advertise your package.

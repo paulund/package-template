@@ -11,5 +11,7 @@ return RectorConfig::configure()
     // here we can define, what prepared sets of rules will be applied
     ->withPreparedSets(
         deadCode: true,
-        codeQuality: true
+        codeQuality: true,
+        typeDeclarations: true,
+        earlyReturn: true,
     );
