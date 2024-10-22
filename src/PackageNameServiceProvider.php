@@ -11,7 +11,8 @@ class PackageNameServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        //$this->loadRoutesFrom(__DIR__.'/Http/Routes/web.php');
+        // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        // $this->loadRoutesFrom(__DIR__.'/Http/Routes/web.php');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'vendor-name/package-name');
         $this->publishes([
             __DIR__.'/../config' => config_path(),
