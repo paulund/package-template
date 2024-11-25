@@ -15,6 +15,7 @@ When you clone this repo there are templated strings that will need to be replac
 search and replace them with the appropriate values.
 
 - `:vendor:` - The vendor name of the package. This is the name of the person or company that is creating the package.
+- `vendor` - The vendor name of the package. This is the name of the person or company that is creating the package.
 - `:package-name:` - The name of the package. This is the name of the package that you are creating.
 - `:package-description:` - The description of the package. This is a short description of what the package does.
 - `VendorName` - The name of the vendor used for namespace.
